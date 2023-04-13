@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/registro.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   
+    <main class="contenedor">
+        <form action="insertarreg.jsp" class="formulario" method="post">
+            <div class="login2" >
+                <img src="img/CR2.png" height="150px" >
+            </div>
+
+            <div>
+                <h1 class="registro">Registro</h1>
+            </div>
+        
+    <!--DATOS ESCRITOS-->
+            <div class="  form-datos"> 
+                <label for="nombre" class="negrilla">Nombre</label>
+                <input required   type="text" name="nombre" class=" col-md-10"   size="10" id="formGroupExampleInput" placeholder="Digite su Nombre" ><br> 
+      
+                <label for="apellido" class="negrilla">Apellido</label>
+                <input required type="text" name="apellido" class=" col-md-10"  size="10" id="formGroupExampleInput" placeholder="Digite su apellido"><br>
+
+                <label for="contrasena" class="negrilla">Contraseña</label>
+                <input required type="text" name="contrasena" class=" col-md-10"  size="10" id="formGroupExampleInput" placeholder="Digite su contraseña"><br>
+ 
+                <label for="cedula" class="negrilla">Cédula</label>
+                <input required type="text" name="cedula" class=" col-md-10"  size="10" id="formGroupExampleInput" placeholder="Digite su cedula"><br>
+   
+                <label for="email" class="negrilla">Correo Electrónico</label>
+                <input  required type="email" name="correo" class=" col-md-10"  size="10" id="formGroupExampleInput" placeholder="Digite su correo electronico"><br>
+        
+                <label for="numero" class="negrilla">Número de contacto</label>
+                <input required type="text" name="numero" class=" col-md-10"  size="10" id="formGroupExampleInput" placeholder="Digite su número de contacto"><br>
+        
+                <label for="direccion" class="negrilla">Dirección de residencia</label>
+                <input required type="text" name="direccion" class=" col-md-10"  size="10" id="formGroupExampleInput" placeholder="Digite su direccion de residencia"><br>
+            </div>
+
+
+             <!--DATOS EELECCION(GENERO)-->
+            <div class=" form-genero ">
+                <label for="lbl-pregunta" class="negrilla">Escoja su estado civil</label><br>
+         
+                <label for="casado" class="casado">
+                    <input required type="radio" name="estadocivil" id="casado" value="Casado">Casado 
+                </label>
+                <br>
+
+                <label for="divorciado" class="divorciado">
+                    <input required type="radio" name="estadocivil" id="divorciado" value="Divorciado">Divorciado
+                </label>
+                <br>
+
+                <label for="soltero" class="soltero">
+                    <input required type="radio" name="estadocivil" id="soltero" value="Soltero">Soltero
+                </label>
+                <br>
+
+                <label for="unionlibre" class="unionlibre">
+                    <input required type="radio" name="estadocivil" id="unionlibre" value="Union libre">Union libre
+                </label>
+                <br>
+
+                <label for="viudo" class="viudo">
+                    <input required type="radio" name="estadocivil" id="viudo" value="Viudo">Viudo
+                    </label>
+            </div>
+    
+            <!--DATOS ELECCION(FECHA)-->
+            <div class="form-fecha"><br>
+                 <label for="fechanacimiento" class="negrilla">Fecha nacimiento</label><br><br>
+                    <input required type="date" name="fechanacimiento" id="fecha">
+            </div>
+            <br><br>
+
+            <input required type="submit" class="boton" value="Enviar">
+
+        </form>
+    
+    </main>
+
+     
+</body>
+</html>

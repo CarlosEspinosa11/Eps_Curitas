@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>EPS CURITAS</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Consulting Website Template Free Download" name="keywords">
+        <meta content="Consulting Website Template Free Download" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body class="page">
+
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">EPS CURITAS</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link ">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Quienes Somos</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <a href="calificacion.html" class="nav-item nav-link active">Calificacion</a>
+                        <a href="login.html" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+        
+        
+        <!-- Contact Start -->
+        <div class="contact mt-125">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Califica Nuestro Servicio</h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Direccion</h3>
+                                <p>Carrera 27 #58-32</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Telefono</h3>
+                                <p>+57 318 323 8780</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Correo Electronico</h3>
+                                <p>epscuritas@correo.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="contact-form">
+                            <form action="regcalificacion.jsp" method="post">
+                                <div class="control-group">
+                                    <input type="text" class="form-control" name="nombre" placeholder="Nombre Completo" required="required" data-validation-required-message="Por favor ingrese el nombre" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" name="doctor" placeholder="Doctor Responsable" required="required" data-validation-required-message="Por favor ingrese el doctor" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" name="calificacion" placeholder="Calificacion " required="required" data-validation-required-message="Por favor ingrese la calificacion" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control" name="mensaje" placeholder="Mensaje" required="required" data-validation-required-message="Por favor ingrese el mensaje"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div>
+                                    <button onclick="alert('Se envio la informacion');" class="btn" type="submit" id="sendMessageButton">Enviar Mensaje</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="footer-contact">
+                                    <h2>Informacion</h2>
+                                    <p><i class="fa fa-map-marker-alt"></i>Carrera 27 #58-32</p>
+                                    <p><i class="fa fa-phone-alt"></i>+57 318 323 8780</p>
+                                    <p><i class="fa fa-envelope"></i>contacto@epscuritas.com</p>
+                                    <div class="footer-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-youtube"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="footer-link">
+                                    <h2>Nuestros Links</h2>
+                                    <a href="">Terminos de uso</a>
+                                    <a href="">Normas de privacidad</a>
+                                    <a href="">Cookies</a>
+                                    <a href="">Ayuda</a>
+                                    <a href="">Preguntas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="footer-newsletter">
+                            <h2>Curitas</h2>
+                            <p>
+                                Nuestro objetivo primordial ha sido trabajar por el bienestar de los afiliados mediante el establecimiento de una relación
+                                duradera que permita cumplir con el deber de ser un aliado experto para garantizar el cuidado de la salud.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; <a href="#">Eps Curitas</a>, Derechos Reservados 2022</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Creado por: Lessly Barba y Carlos Espinosa</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+#tarjeta{
+    margin-left: 70px;   
+}
+
+.card{
+    background-color:#FFFF;
+    display: flex;
+    flex-direction: column;
+
+    border: solid 1px #999999;
+    border-radius: 8px;
+    width: 540px;
+    box-shadow: 3px 0px 10px -5px black;
+    margin-top: 10px;
+    margin-bottom:  20px;
+    margin-left: 850px;
+    padding: 30px;
+
+}

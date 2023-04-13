@@ -1,0 +1,102 @@
+body{
+ 
+    display: flex;
+    background: url(../img/login2.png) no-repeat center top;
+    background-size: cover;
+    flex-direction: center;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-top: 100px;
+   
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #999999;
+    border-radius: 8px;
+    width: 386px;
+    height: 400px;
+    box-shadow: 3px 0px 10px -5px black;
+    margin-top: 1px;
+    padding: 30px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;  
+    position: relative;
+
+}
+
+.form-datos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.login{
+    height: 100%;
+    border-radius: 8px;
+    flex-direction: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.boton{
+    background: #013582;
+    color: white;
+    border-radius: 4px;
+    padding: 9px;
+    border: 10pz solid white;
+    font-size: 16px;
+}
+
+input[type="text"], input[type="password"] {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    height: 40px;
+}
+
+.negrilla{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#titulo{
+    margin-top: 35px;
+    flex-direction: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.formulario a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-weight: bold;
+
+}
+
+.formulario a:hover{
+    color: black;
+}
+
+.formulario img{
+    position: absolute;
+    top: -67px;
+    left: 170px;
+    width: 120px;
+    height: 120px;
+}
+
+
+
